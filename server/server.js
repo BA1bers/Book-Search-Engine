@@ -27,7 +27,7 @@ const server = new ApolloServer({
   playground: true
 });
 await server.start();
-//integrate our Apollo server middlewear here
+//adding Apollo server middlewear here
 server.applyMiddleware({ app });
 
 app.use(express.urlencoded({ extended: true }));
