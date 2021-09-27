@@ -1,5 +1,6 @@
 import { gql } from '@apollo/client'
 
+// Defined login mutation type to accept an email and password parameters, returns an Auth type
 export const USER_LOGIN = gql`
     mutation login($email: String!, $password: String!) {
     login(email: $email, password: $password) {
@@ -12,6 +13,7 @@ export const USER_LOGIN = gql`
 }
 `;
 
+// Defined add user mutation type to accept a username, email, and password as parameters; returns an Auth type
 export const ADD_USER = gql`
     mutation addUser($username: String!, $email: String!, $password: String!) {
         addUser(username: $username, email: $email, password: $password) {
@@ -24,6 +26,7 @@ export const ADD_USER = gql`
     }
 `;
 
+// Defined save book to accept a book author's array, description, title, bookId, image, and link as parameters; returns a user type.
 export const SAVE_BOOK = gql`
     mutation saveBook($book: SavedBookInput!) {
         saveBook(book: $book) {
@@ -42,6 +45,7 @@ export const SAVE_BOOK = gql`
     }
 `;
 
+// Defined remove book to accept a book's bookId as a parameter; returns a user type
 export const REMOVE_BOOK = gql`
     mutation removeBook($bookId: String!) {
         removeBook(bookId: $bookId) {

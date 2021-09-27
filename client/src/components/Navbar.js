@@ -11,7 +11,6 @@ const AppNavbar = () => {
   const [showModal, setShowModal] = useState(false);
 
   return (
-    //put same thing from app.js
     <>
       <Navbar bg='dark' variant='dark' expand='lg'>
         <Container fluid>
