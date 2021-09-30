@@ -4,6 +4,7 @@ const express = require('express');
 const { ApolloServer } = require('apollo-server-express');
 // import typeDefs and resolvers from schema folder
 const { typeDefs, resolvers } = require('./schemas')
+console.log("schema's imported")
 // const { ApolloServerPluginLandingPageGraphQLPlayground } = require('apollo-server-core');
 const path = require('path');
 const db = require('./config/connection');
