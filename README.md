@@ -23,10 +23,11 @@ This project was to refactor a RESTful API into a GraphQL API built with an Apol
     Restful API
 
 ## Screenshots:
-![Home](screenshots/bookssearch.png)
-![Stephen King](screenshots/bookssearch1.png)
-![Log In](screenshots/bookssearch2.png)
-![Sign up](screenshots/bookssearch3.png)
+
+![Home](screenshots/bookssearch.PNG)
+![Stephen King](screenshots/bookssearch1.PNG)
+![Log In](screenshots/bookssearch2.PNG)
+![Sign up](screenshots/bookssearch3.PNG)
 
 ## Credits
 Created By: Brent Albers.
